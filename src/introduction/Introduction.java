@@ -41,6 +41,8 @@ class Student{
         }
     }
 
+
+
 public class Introduction {
     public static void main(String[] args) {
         System.out.println("Hello");
@@ -62,6 +64,7 @@ public class Introduction {
         random.greetings();
         Student random2 = new Student();
         System.out.println(random2.name);
+        System.out.println(max);
 
 //        Student student2 = new Student(14,"Sam",80.0f);
 //        System.out.println(student2.marks);
