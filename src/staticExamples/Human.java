@@ -1,4 +1,4 @@
-package StaticExamples;
+package staticExamples;
 
 public class Human {
     int age;
@@ -16,4 +16,4 @@ public class Human {
         Human.population +=1;
     }
 
-}
+} 
