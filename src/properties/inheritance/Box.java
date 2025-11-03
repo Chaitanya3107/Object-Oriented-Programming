@@ -1,9 +1,17 @@
 package properties.inheritance;
 
 public class Box {
-    double l;
+    private double l;
     double h;
     double w;
+
+    static void greeting(){
+        System.out.println("I am in Box class");
+    }
+
+    public double getL() {
+        return l;
+    }
 
     Box(){
         this.h = -1;
